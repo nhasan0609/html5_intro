@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li>
+                    <a href="form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul></li>
+                
+                </li>
+                <li><a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Html Table</h1>
+        <table>
+            <caption>Employee salary Data</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nazim</td>
+                    <td>Edata</td>
+                    <td>€1800</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sazim</td>
+                    <td>Edata</td>
+                    <td>€1900</td>
+                </tr>
+                <td>3</td>
+                <td>Bozim</td>
+                <td>Edata</td>
+                <td>€2000</td>
+                <tr>
+                    <td>4</td>
+                    <td>Tazim</td>
+                    <td>Edata</td>
+                    <td>€1800</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total Employee: 4</td>
+                </tr>
+
+            </tfoot>
+        </table>
+        <ul>
+            <li><b>table:</b> Defines a table </li>
+            <li><b>th:</b> Defines a header cell in a table</li>
+            <li><b>tr:</b> Defines a row in a table</li>
+            <li><b>td:</b> Defines a cell in a table</li>
+            <li><b>caption:</b> Defines a table caption</li>
+            <li><b>colgroup:</b> Specifies a group of one or more columns in a table for formatting</li>
+            <li><b>col:</b> Specifies column properties for each column within a colgroup element</li>
+            <li><b>thead:</b> Groups the header content in a table</li>
+            <li><b>tbody:</b> Groups the body content in a table</li>
+            <li><b>tfoot:</b> Groups the footer content in a table</li>
+        </ul>
+    </main>
+</body>
+
+</html>

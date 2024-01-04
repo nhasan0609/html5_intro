@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Lover Bandar</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul></li>
+                
+                </li>
+                <li><a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form: </h2>
+            <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input id="email" type="text" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone Number:
+                    <input id="phone" type="text" placeholder="Your phone number">
+                </label>
+                <fieldset>
+                    <legend>Pick one Cat</legend>
+                    <label for="Puchu">
+                        <input type="radio" name="Cat" id="Puchu"> Puchu
+                    </label>
+                    <label for="Mini">
+                        <input type="radio" name="Cat" id="Mini"> Mini
+                    </label>
+                    <label for="Futki">
+                        <input type="radio" name="Cat" id="Futki"> Futki
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or more Toy:</legend>
+                    <label for="Ball">
+                        <input type="checkbox" name="Toy" id="Ball"> Ball
+                    </label>
+                    <label for="Car">
+                        <input type="checkbox" name="Toy" id="Car"> Car
+                    </label>
+                    <label for="Fish">
+                        <input type="checkbox" name="Toy" id="Fish"> Fish
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
